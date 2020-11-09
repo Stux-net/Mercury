@@ -1,0 +1,144 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+li,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1691px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+header {
+  background: url(/assets/images/header-bg.png) no-repeat center top / cover;
+  height: 100vh;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ol {
+  display: flex;
+  list-style-type: none;
+}
+
+.logo {
+  padding: 0 15px;
+}
+
+.heading {
+  padding-top: 30px;
+}
+
+nav ol li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  margin-right: 52px;
+}
+
+#active {
+  border-bottom: none;
+  color: #5584ff;
+  border: 1px solid #5584ff;
+  padding: 17px 43px;
+  border-radius: 50px;
+}
+
+
+/* //////// Здесь я хотел сделать анимацию для меню сверху, но работает коряво ///////*/
+
+
+/* .hover-border::after {
+  content: "";
+  width: 0%;
+  height: 7px;
+  background: #360033;
+  background: -webkit-linear-gradient(to left, #0b8793, #360033);
+  background: linear-gradient(to left, #0b8793, #360033);
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  border-radius: 10px;
+  transition: all 500ms ease;
+} */
+
+/* .hover-border:hover::after { 
+   border-bottom: 2px solid #019fb6; 
+   width: 100%; 
+   left: 0%; 
+} */
+
+
+/* ///////////////////////////////////////////////////////////// */
+
+.text_center {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  margin-top: 130px;
+}
+
+.grow_your_business {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.your_partner {
+  font-size: 36px;
+  color: #8492af;
+  margin-top: 10px;
+}
+
+#button {
+  text-align: center;
+  border: 1px solid #5584ff;
+  width: 204px;
+  margin: 0 auto;
+  background: #5584ff;
+  border-radius: 50px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 0;
+  margin-top: 80px;
+}
+
+#center_photo {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
