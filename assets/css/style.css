@@ -88,7 +88,7 @@ nav ol li a {
 .hover-border::after {
   content: "";
   width: 0%;
-  height: 7px;
+  height: 1px;
   background: #360033;
   background: -webkit-linear-gradient(to left, #0b8793, #360033);
   background: linear-gradient(to left, #0b8793, #360033);
@@ -153,7 +153,7 @@ nav ol li a {
 }
 
 .option {
-  display: block;
+  /* display: block; */
   width: 33.33%;
   text-align: center;
   padding: 0 30px;
@@ -169,3 +169,66 @@ nav ol li a {
   color: #8492af;
   line-height: 1.7em;
 }
+
+.option:nth-child(2) {
+  padding-bottom: 8px;
+}
+
+.option-btn {
+  border: 1px solid #dadee7;
+  padding: 18px 85px;
+  background: transparent;
+  border-radius: 43px;
+}
+
+.opt-btn-div {
+  margin-top: 100px;
+}
+
+.tablet-and-notebook {
+  background: url(/assets/images/bg-tablet-and-notebook.png) no-repeat center
+    top / cover;
+  height: 100vh;
+}
+
+.all {
+  margin-top: 290px;
+}
+
+.all_you {
+  color: #0e1a35;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.lorem_1,
+.lorem_2 {
+  width: 580px;
+  color: #8492af;
+  line-height: 1.7em;
+}
+
+.lorem_1 {
+  margin-top: 59px;
+}
+
+.lorem_2 {
+  margin-top: 33px;
+}
+
+.accept span {
+  color: #5584ff;
+  font-size: 22px;
+}
+
+.accept {
+  margin-top: 60px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+}
+
+/* .all {
+  padding-left: 20px;
+} */
+
